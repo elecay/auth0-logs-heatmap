@@ -14,7 +14,7 @@ class Map extends React.Component {
       container: "map",
       zoom: 2,
       center: [-10, 30],
-      style: "mapbox://styles/mapbox/dark-v10"
+      style: "mapbox://styles/mapbox/dark-v9"
     });
     this.map.addControl(new mapboxgl.NavigationControl(), "bottom-right");
 
