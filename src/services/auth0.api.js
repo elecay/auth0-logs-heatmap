@@ -1,6 +1,6 @@
 class Auth0Api {
   async getLogs() {
-    let users = await fetch(
+    let logs = await fetch(
       process.env.REACT_APP_DOMAIN + "/api/v2/logs?per_page=100&fields=ip",
       {
         headers: {
@@ -9,7 +9,7 @@ class Auth0Api {
         }
       }
     );
-    let data = await users.json();
+    let data = await logs.json();
     return data;
   }
 }
