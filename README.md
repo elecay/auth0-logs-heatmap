@@ -4,6 +4,8 @@ This app shows all logs activity, from Auth0, on a map as a heatmap. The informa
 
 For retrieving the tiles and for drawing the map we use Mapbox and `mapbox-gl` library, respectively.
 
+<img src="heatmap-example.png" alt="Markdown Monster icon" style="float: center;" />
+
 ## Note
 
 Since this is considered a hacking exercise, some liberties have been taken:
