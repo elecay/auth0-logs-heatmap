@@ -21,7 +21,7 @@ Edit `.env` file in the root of the project.
 
 - **REACT_APP_DOMAIN**: Auth0 domain.
 - **REACT_APP_AUTH0_TOKEN**: Auth0 token from an API with `read:logs` permission.
-- **REACT_APP_MAPBOX_TOKEN**: Mapbox token.
+- **REACT_APP_MAPBOX_TOKEN**: Mapbox token (free open token by default)
 
 ### Available Scripts
 
